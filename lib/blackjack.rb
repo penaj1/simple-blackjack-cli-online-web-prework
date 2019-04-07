@@ -18,11 +18,11 @@ def prompt_user
 end
 
 def get_user_input
-  puts 
+  user_input = gets.comp
 end
 
 def end_game
-  "Sorry, you hit #{card_total}. Thanks for playing!"
+  card_total = "Sorry, you hit #{card_total}. Thanks for playing!"
   # code #end_game here
 end
 
